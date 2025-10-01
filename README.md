@@ -6,9 +6,9 @@ This repository is intended to test out the setup for workshops. Ensure you have
 
 The environment is based on Devcontainers and is supported across these platforms:
 
-* GitHub Codespaces (with Visual Studio Code)
+* GitHub Codespaces
 * Visual Studio Code
-* Intellij IDEA.
+* Intellij IDEA (experimental).
 
 Choose your platform and follow the instructions in the related section.
 
@@ -24,7 +24,7 @@ Choose your platform and follow the instructions in the related section.
 ![](docs/codespaces/github-codespaces-3.png)
 5. Click _Create codespace_.
 
-The environment will open in an online version of Visual Studio Code. The first time it will take a few seconds to initialize the environment. Subsequent access will be faster.
+The environment will open in an online version of Visual Studio Code. The first time it will take a couple of minutes to initialize the environment. Subsequent access will be faster.
 
 ### Visual Studio Code
 
@@ -51,7 +51,7 @@ code workshop-setup.git
 
 7. Visual Studio Code will show you a pop-up window asking you to "Reopen in Container" the project as a Devcontainers project. Accept the action. Alternatively, you can choose the "Reopen in Container" option after typing `Ctrl+Shift+P` (Windows/Linux) or `Cmd+Shift+P` (macOS).
 
-The environment will run in a container on your local machine and you can work on it from your local Visual Studio Code.
+The environment will run in a container on your local machine and you can work on it from your local Visual Studio Code. The first time it will take a couple of minutes to initialize the environment. Subsequent access will be faster.
 
 ### IntelliJ IDEA Ultimate
 
@@ -69,7 +69,7 @@ Pre-requisites:
 ![](docs/idea/idea-2.png)
 6. Choose "Build Container and Continue".
 
-The environment will run in a container on your local machine and you can work on it from your local IntelliJ IDEA Ultimate.
+The environment will run in a container on your local machine and you can work on it from your local IntelliJ IDEA Ultimate. The first time it will take a couple of minutes to initialize the environment. Subsequent access will be faster.
 
 ## 2. Testing the environment
 
