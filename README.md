@@ -6,11 +6,11 @@ This repository is intended to test out the setup for workshops. Ensure you have
 
 The environment is based on Devcontainers and is supported across these platforms:
 
-* GitHub Codespaces
+* GitHub Codespaces (recommended)
 * Visual Studio Code
 * Intellij IDEA (experimental).
 
-Choose your platform and follow the instructions in the related section.
+Choose your platform and follow the instructions in the related section. The first options with GitHub Codespaces is the recommended one as it doesn't require any installation on your laptop.
 
 ### GitHub Codespaces
 
@@ -30,7 +30,7 @@ The environment will open in an online version of Visual Studio Code. The first 
 
 Pre-requisites:
 * [Visual Studio Code](https://code.visualstudio.com) installed on your laptop.
-* Container runtime like [Podman Desktop](https://podman-desktop.io) or [Docker Desktop](https://docker.com) installed on your laptop.
+* Container runtime like [Podman Desktop](https://podman-desktop.io) or [Docker Desktop](https://docker.com) installed on your laptop. For Podman Desktop, you can follow the instructions [here](https://www.thomasvitale.com/podman-desktop-for-java-development/).
 
 1. Open Visual Studio Code on your laptop.
 2. From the "Extensions" page, ensure the "Dev Containers" extension is installed. If not, you can install it by running this command from a Terminal window:
@@ -58,7 +58,7 @@ The environment will run in a container on your local machine and you can work o
 Pre-requisites:
 * [IntelliJ IDEA Ultimate](https://www.jetbrains.com/idea/) installed on your laptop.
 * [JetBrains Gateway](https://www.jetbrains.com/remote-development/gateway/) installed on your laptop.
-* Container runtime like [Podman Desktop](https://podman-desktop.io) or [Docker Desktop](https://docker.com) installed on your laptop.
+* Container runtime like [Podman Desktop](https://podman-desktop.io) or [Docker Desktop](https://docker.com) installed on your laptop. For Podman Desktop, you can follow the instructions [here](https://www.thomasvitale.com/podman-desktop-for-java-development/).
 
 1. Go to the main page of this repository at [github.com/ThomasVitale/workshop-setup](https://github.com/ThomasVitale/workshop-setup).
 2. Create a new fork.
